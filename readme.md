@@ -22,7 +22,7 @@ int main() {
   };
 
   // register jack client and callback
-  Audio audio{"PD", audio_callback};
+  Audio audio{"client name", audio_callback};
 
   // start processing audio
   if (!audio.start()) {
