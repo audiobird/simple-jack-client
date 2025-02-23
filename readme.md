@@ -5,7 +5,7 @@ An extremely quick and easy way to get audio in or out of your c++ program
 Example:
 
 ```
-#include "sound/jack_audio.hh"
+#include "simple-jack-client/jack_audio.hh"
 #include <iostream>
 
 constexpr auto num_inputs = 2;
